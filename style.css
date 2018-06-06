@@ -1,0 +1,79 @@
+
+@font-face {
+  font-family: 'quicksand';
+  src: url('quicksand/Quicksand-Regular.otf'); /* IE9 Compat Modes */
+  src: url('quicksand/quicksand.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('quicksand/quicksand.woff2') format('woff2'), /* Super Modern Browsers */
+       url('quicksand/quicksand.woff') format('woff'), /* Pretty Modern Browsers */
+       url('quicksand/quicksand.ttf')  format('truetype'), /* Safari, Android, iOS */
+       /* url('quicksand/quicksand.svg#svgFontName') format('svg'); /* Legacy iOS */ */
+}
+
+.logo {
+  position: relative;
+  margin: 10% 5%;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: navy;
+}
+
+.h2, li {
+  font-family: 'quicksand', sans-serif;
+}
+
+.h2 {
+  letter-spacing: 0.5em;
+}
+
+li {
+  letter-spacing: 0.2em;
+}
+
+.bg {
+    /* The image used */
+    background: linear-gradient(black, transparent 100%),
+                linear-gradient(to top, navy, transparent 100%),
+                url("bg.jpg");
+                background-color: navy;
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.delivery {
+
+  max-width: 180px;
+
+}
+
+.navpadding {
+}
+
+.contactlogo {
+  max-width: 150px;
+  margin-top: -20%;
+  vertical-align: middle;
+}
+
+.menubutton {
+  padding: 5% 10%;
+  min-width: 270px;
+  /* background-color: #a5e271; */
+}
+
+
+
+  @media (max-width: 576px) {
+    .addresspad {
+      padding: 3% 25%
+    }
+  }
